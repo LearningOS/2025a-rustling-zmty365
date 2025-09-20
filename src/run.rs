@@ -37,7 +37,7 @@ pub fn reset(exercise: &Exercise) -> Result<(), ()> {
 fn compile_and_run(exercise: &Exercise) -> Result<(), ()> {
     let progress_bar = ProgressBar::new_spinner();
     progress_bar.set_message(format!("Compiling {exercise}..."));
-    progress_bar.enable_steady_tick(100);
+    progress_bar.enable_steady_tick(std::time::Duration::from_millis(100));
 
     let compilation_result = exercise.compile();
     let compilation = match compilation_result {

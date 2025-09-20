@@ -2,9 +2,9 @@
 
 | Exercise               | Book Chapter        |
 | ---------------------- | ------------------- |
-| variables              | §3.1                |
-| functions              | §3.3                |
-| if                     | §3.5                |
+| variables              | §3.1                |完成
+| functions              | §3.3                |完成
+| if                     | §3.5                |完成
 | primitive_types        | §3.2, §4.3          |
 | vecs                   | §8.1                |
 | move_semantics         | §4.1-2              |
