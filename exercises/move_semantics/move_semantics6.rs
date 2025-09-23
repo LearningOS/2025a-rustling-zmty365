@@ -9,19 +9,19 @@
 fn main() {
     let data = "Rust is great!".to_string();
 
-    get_char(data.clone());
+    get_char(&data);  // 传递引用，不获取所有权
 
-    string_uppercase(data);
+    string_uppercase(data);  // 现在可以正常获取所有权
 }
 
-// Should not take ownership
-fn get_char(data: String) -> char {
+// 应该借用而不是获取所有权
+fn get_char(data: &String) -> char {
     data.chars().last().unwrap()
 }
 
-// Should take ownership
+// 应该获取所有权并实际修改数据
 fn string_uppercase(mut data: String) {
-    data.to_uppercase();
+    data = data.to_uppercase();  // 需要重新赋值，因为 to_uppercase() 返回新字符串
 
     println!("{}", data);
 }
