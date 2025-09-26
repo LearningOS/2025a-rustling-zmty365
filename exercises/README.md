@@ -14,14 +14,14 @@
 | modules                | §7                  | 完成      |
 | hashmaps               | §8.3                | 完成      |
 | options                | §10.1               | 完成      |
-| error_handling         | §9                  |      |
-| generics               | §10                 |      |
-| traits                 | §10.2               |      |
-| tests                  | §11.1               |      |
-| lifetimes              | §10.3               |      |
-| iterators              | §13.2-4             |      |
-| threads                | §16.1-3             |      |
-| smart_pointers         | §15, §16.3          |      |
-| macros                 | §19.6               |      |
-| clippy                 | §21.4               |      |
-| conversions            | n/a                 |      |
+| error_handling         | §9                  | 完成      |
+| generics               | §10                 | 完成      |
+| traits                 | §10.2               | 完成      |
+| tests                  | §11.1               | 完成      |
+| lifetimes              | §10.3               | 完成      |
+| iterators              | §13.2-4             |       |9.27
+| threads                | §16.1-3             |       |9.27
+| smart_pointers         | §15, §16.3          |       |9.27
+| macros                 | §19.6               |       |9.28
+| clippy                 | §21.4               |       |9.28
+| conversions            | n/a                 |       |9.28
